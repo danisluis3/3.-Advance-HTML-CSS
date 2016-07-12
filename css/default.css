@@ -1,0 +1,58 @@
+/** ------------ Introduction to pseudo-classes ------------ **/
+#mommy{
+	width: 960px;
+	height: 280px;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	background-color: #ffebd4;
+	padding:10px 20px;
+	overflow: scroll;
+}
+h1{
+	padding: 0;
+	margin:0px;
+	text-align: center;
+	color:#daff00;
+}
+h1:hover{
+	color:#ff2c6f;
+	transition-duration: 0.8s;
+    -webkit-transition-duration: 0.8s; 
+    -moz-transition-duration: 0.8s; 
+    -o-transition-duration: 0.8s; 
+	text-shadow: 0px 0px 20px #ff2c6f;
+}
+/** ------------- Negation Pseudo-classes ------------- **/
+#negation{
+	width: 960px;
+	height: 280px;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	background-color: #ffebd4;
+	padding:10px 20px;
+	overflow: scroll;
+}
+/** ------------- Rounded Conners and Shadows! ------------- **/
+#rounded{
+	width: 960px;
+	height: 280px;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	background-color: #ffebd4;
+	padding:10px 20px;
+	overflow: scroll;
+}
+/** ----------- Text Shadow,Gradients and Alpha ----------- **/
+#shadow{
+	width: 960px;
+	height: 280px;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	background-color: #ffebd4;
+	padding:10px 20px;
+	overflow: scroll;
+}

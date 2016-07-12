@@ -1,0 +1,65 @@
+/** ------------ Introduction to pseudo-classes ------------ **/
+#mommy .contentx p:nth-child(3){
+	color:#a61414;
+}
+#mommy .contenty p:nth-child(odd){
+	color:#e82c00;
+	text-align: center;
+}
+#mommy .contenty p:nth-child(even){
+	color:blue;
+	text-align: right;
+}
+/** ------------- Negation Pseudo-classes ------------- **/
+#negation .contentx p{
+	color:blue;
+}
+#negation .contentx p:not(.bucky){
+	color:red;
+}
+/** ------------- Rounded Conners and Shadows! ------------- **/
+#rounded .round-borderx{
+	width: 300px;
+	height: 80px;
+	margin-top: 40px;
+	margin-left: 320px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 10px 5px 15px 32px;
+	-webkit-border-radius:10px 5px 15px 32px;
+	-moz-border-radius:10px 5px 15px 32px;
+	background-color: #7c888a;
+	/**
+	 * 10px => chi cho bong do ve phia ben tay trai
+	 * 12px => chi bong do ve phia tren hoac duoi
+	 * #8888888 => chi cho mau bong cua background nhé.
+	**/
+	box-shadow: 10px 12px 5px #888888;
+	border: 1px solid black;
+}
+#rounded .round-borderx p{
+	text-align: center;
+	font-family: 'Arial';
+	font-size: 32px;
+	color:#f2541b;
+	font-weight: bold;
+}
+#rounded .round-bordery{
+	width: 300px;
+	height: 80px;
+	margin-top: 40px;
+	margin-left: 320px;
+	padding: 40px 0px;
+	border-radius: 20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	background-color: #f2541b;
+	box-shadow: 5px 5px #013445 inset;
+	-webkit-box-shadow:5px 5px #013445 inset;
+	-moz-box-shadow:5px 5px #013445 inset;
+}
+#rounded .round-bordery p{
+	text-align: center;
+	color:white;
+}
+/** ----------- Text Shadow,Gradients and Alpha ----------- **/
